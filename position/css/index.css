@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid green;
+    padding: 20px;
+    position: relative;
+}
+
+p{
+    width: 50%;
+    position: absolute;
+    top: 20px; right: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.NEXT{
+    right: 100%;
+}
+
+.before{
+    left: 100%;
+}
